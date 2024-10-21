@@ -110,6 +110,8 @@ button:hover{
 .main-text{
   text-align: center;
   padding: 20px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .section-title{
@@ -137,7 +139,7 @@ button:hover{
 
 .jumbo{
   background-image: url(../assets/img/jumbo.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-width: 900px;
