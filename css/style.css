@@ -55,7 +55,8 @@ a:hover{
 header{
   display: flex;
   padding: 10px 0px;
-  width: 100%
+  width: 100%;
+  position: fixed;
 }
 
 ul li{
@@ -72,24 +73,32 @@ nav ul li a{
   justify-content: center;
   width: 100%;
   align-items: center;
-  gap: 20px
+  gap: 60px
 }
 
 button {
   border: 0;
   border-radius: 30px;
   padding: 10px 15px;
+  font-size: 0.9rem;
 }
 
 button:hover{
   cursor: pointer;
-  opacity: 50%;
+  opacity: 0.7;
 }
 
 .buttons{
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.btn-big{
+  border: 0;
+  border-radius: 30px;
+  padding: 15px 30px;
+
 }
 
 .center{
@@ -103,14 +112,14 @@ button:hover{
 
 .main-title{
   text-align: center;
-  padding: 20px;
+  margin-bottom: 40px;
   font-size: 1.5rem;
 }
 
 .main-text{
   text-align: center;
   padding: 20px;
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -143,6 +152,8 @@ button:hover{
   background-repeat: no-repeat;
   background-position: center;
   min-width: 900px;
+  min-height: 590px;
+  padding-top: 100px ;
 }
 
 .big-container {
@@ -160,6 +171,11 @@ button:hover{
   flex-direction: column;
 }
 
+.row{
+  flex-direction: row;
+  gap: 15px;
+}
+
 footer{
   background-color: #23272A;
 }
@@ -171,7 +187,6 @@ footer{
 
 h4{
   display: flex;
-  text-align:;
 }
 
 .footer-top{
@@ -223,8 +238,8 @@ footer a{
 .stars{
   background-image: url(../assets/img/stars.svg);
   background-repeat: no-repeat;
-  height: 50%;
   width: 50%;
+  
 }
 
 .icons{
